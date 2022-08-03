@@ -1,9 +1,29 @@
 const Home = () => {
-    return (
-        <div>
-            Hello from Home
-        </div>
-    );
+  return (
+    <div className="dark">
+      <h1>Hello from Home</h1>
+      <h1>Hello from Home</h1>
+      <h1>Hello from Home</h1>
+      <h1>Hello from Home</h1>
+      <h1>Hello from Home</h1>
+      <h1>Hello from Home</h1>
+      <h1>Hello from Home</h1>
+      <h1>Hello from Home</h1>
+      <h1>Hello from Home</h1>
+      <h1>Hello from Home</h1>
+      <h1>Hello from Home</h1>
+      <h1>Hello from Home</h1>
+      <h1>Hello from Home</h1>
+      <h1>Hello from Home</h1>
+      <h1>Hello from Home</h1>
+      <h1>Hello from Home</h1>
+      <h1>Hello from Home</h1>
+      <h1>Hello from Home</h1>
+      <h1>Hello from Home</h1>
+      <h1>Hello from Home</h1>
+      <h1>Hello from Home</h1>
+    </div>
+  );
 };
 
 export default Home;

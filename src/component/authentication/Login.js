@@ -12,7 +12,10 @@ const Login = () => {
 
   useEffect(() => {
     if (auth.user && auth.user?.stsTokenManager?.accessToken) {
-      window.sessionStorage.setItem("token", auth.token);
+      window.sessionStorage.setItem(
+        "token",
+        auth.user?.stsTokenManager?.accessToken
+      );
       navigate(from, { replace: true });
     }
   }, [auth, navigate, from]);

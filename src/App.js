@@ -7,11 +7,14 @@ import Register from "./component/authentication/Register";
 import ProtectedRoute from "./component/authentication/ProtectedRoute";
 import Article from "./component/article/Article";
 import ArticleDetail from "./component/article/ArticleDetail";
+import NavigationBar from "./component/NavigationBar";
+import Footer from "./component/Footer";
 
 function App() {
   return (
     <div>
-      <h1>Welcome to React Router!</h1>
+      <NavigationBar />
+
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route
@@ -34,6 +37,7 @@ function App() {
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

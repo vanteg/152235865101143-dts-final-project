@@ -1,7 +1,8 @@
+import Carousel from "react-bootstrap/Carousel";
+import Jumbotron from "./Jumbotron";
+
 const Article = () => {
-    return (
-        <div>Hello from Article</div>
-    )
-}
+  return <Jumbotron />;
+};
 
 export default Article;
